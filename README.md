@@ -1,0 +1,2 @@
+# CSS-Color-Gradient
+ # CSS-Color-Gradient  This responsive web app lets you explore the world of color gradients. Built with HTML, CSS, and JavaScript, it provides a user-friendly interface for selecting two and instantly viewing the smooth transition between them.  The responsive design ensures the app adapts perfectly to any screen size, making it a great tool for web designers and anyone who loves to experiment with colors.
