@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+  to right top,
+  #051937,
+  #004d7a,
+  #008793,
+  #00bf72,
+  #a8eb12
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3.2rem;
+}
+#myButton{
+  background-color:rgb(34, 34, 34) ;
+  color:rgb(168,235,18) ;
+  padding: 1rem 3rem;
+  border-radius: 5rem;
+  margin: 1rem;
+  border-color: #fff;
+  border-width: 0;
+  box-shadow: 1rem 1rem 2rem 0.3rem #051937;
+  
+}
+#myButton2{
+  background-color: rgb(168,235,18);
+  color: rgb(34, 34, 34);
+  padding: 1rem 3rem;
+  border-radius: 5rem;
+  margin: 1rem;
+  border-color: aliceblue;
+  border-width: 0;
+  box-shadow: 1rem 1rem 2rem 0.3rem #051937;
+}
+
+.copyCode{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-size: 1.8rem;
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+  line-height: 1.4;
+  letter-spacing: 0.2px;
+  border-left: 3px solid #fff;
+  background-color: rgba(211, 206, 206, 0.199);
+  padding: 15px 8px 15px 17px;
+  border-radius: 5px;
+}
